@@ -11,7 +11,7 @@ private:
     int currentCount;
 public:
     Enclosure();
-    Enclosure(Animal& animal, int capacity, int currentCount, string& name, int age, bool isHungry);
+    Enclosure( int capacity, int currentCount, string& name, int age, bool isHungry);
 
     void addAnimal(Animal* a);
     //void displayAnimals();

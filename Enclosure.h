@@ -15,7 +15,7 @@ public:
 
     void addAnimal(Animal* a);
     //void displayAnimals();
-    override void displayAnimals() const;
+     void displayAnimals() const;
 //getters
     Animal getAnimal();
     int getCapacity;

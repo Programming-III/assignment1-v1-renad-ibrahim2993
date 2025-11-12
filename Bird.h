@@ -10,7 +10,7 @@ private:
 public:
 
     Bird();
-    Bird(float wingSpan, string& name, int age, bool isHungry);
+    Bird(float wingSpan, string name, int age, bool isHungry);
     //setters
     void setName(int name);
     void setAge(int age);

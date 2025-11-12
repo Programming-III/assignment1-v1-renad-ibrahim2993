@@ -12,7 +12,7 @@ private:
     Animal();
     Animal(string name, int age, bool isHungry);
     //setters
-    void setName(int name);
+    void setName(string name);
     void setAge(int age);
     void setIsHungry(bool isHungry);
     //getters

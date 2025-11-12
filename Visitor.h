@@ -9,6 +9,9 @@ private:
     int ticketsBought;
 
 public:
+Visitor();
+Visitor( string visitorName,  int ticketsBought);
+
     void displayInfo();
     //getters
     string getvisitorName();
@@ -17,5 +20,6 @@ public:
     void setVisitorName(string visitorName);
     void setTicketsBought(int ticketsBought);
     ~Visitor();
+
 };
 #endif //UNTITLED2_VISITOR_H

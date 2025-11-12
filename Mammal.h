@@ -10,9 +10,9 @@ private:
 public:
 
     Mammal();
-    Mammal(string& furColor, string& name, int age, bool isHungry);
+    Mammal(string furColor, string name, int age, bool isHungry);
     //setters
-    void setName(int name);
+    void setName(string name);
     void setAge(int age);
     void setIsHungry(bool isHungry);
     void set furColor(string furColor);

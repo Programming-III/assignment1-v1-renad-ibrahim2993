@@ -10,7 +10,7 @@ private:
     bool isHungry;
     public:
     Animal();
-    Animal(string& name, int age, bool isHungry);
+    Animal(string name, int age, bool isHungry);
     //setters
     void setName(int name);
     void setAge(int age);

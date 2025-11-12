@@ -10,9 +10,9 @@ private:
 public:
 
     Reptile();
-    Reptile(float wingSpan, string& name, int age, bool isHungry);
+    Reptile(float wingSpan, string name, int age, bool isHungry);
     //setters
-    void setName(int name);
+    void setName(string name);
     void setAge(int age);
     void setIsHungry(bool isHungry);
     void setIsVenomous(bool isVenomous);

@@ -1,5 +1,3 @@
-#include "Animal.h"
-
 #ifndef UNTITLED2_ENCLOSURE_H
 #define UNTITLED2_ENCLOSURE_H
 #include<iostream>

@@ -12,7 +12,7 @@ public:
     Bird();
     Bird(float wingSpan, string name, int age, bool isHungry);
     //setters
-    void setName(int name);
+    void setName(string name);
     void setAge(int age);
     void setIsHungry(bool isHungry);
     void set wingSpan(float wingSpan);
@@ -22,7 +22,7 @@ public:
     int getAge();
     bool getIsHungry();
     float getWingSpan();
-    override void display() const;
+     void display() const;
 
     ~Bird();
 };
